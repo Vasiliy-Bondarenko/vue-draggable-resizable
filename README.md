@@ -1,3 +1,10 @@
+### This is modified component from https://github.com/mauricius/vue-draggable-resizable
+
+Original component don't watch `x`,`y`,`w`,`h` props for changes, so there is no easy way to move it by manipulating the values of the props.  
+
+So to manage position and sizing of the component I removed `x`,`y`,`w`,`h` props and made one `coords` compound property `{x,y,w,h}` - this way it's possible to change them all at once. 
+
+
 <p align="center"><img src="https://rawgit.com/mauricius/vue-draggable-resizable/master/docs/resources/logo.png" alt="logo"></p>
 <h1 align="center">VueDraggableResizable</h1>
 
